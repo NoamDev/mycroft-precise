@@ -28,6 +28,6 @@ jobs:
           python-version: 3.6.8
           architecture: x64
       
-      - run: cmd /c path
+      - run: ./build.bat
       
 
