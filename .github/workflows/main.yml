@@ -30,4 +30,12 @@ jobs:
       
       - run: ./build.bat
       
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/precise-all_0.3.0_win_AMD64.tar.gz
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/precise-engine_0.3.0_win_AMD64.tar.gz
+
 
